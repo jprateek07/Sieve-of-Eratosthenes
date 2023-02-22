@@ -1,0 +1,89 @@
+table {
+    border: 5px solid #000000;
+    border-collapse: collapse;
+}
+
+td {
+    font-size: 1.8em;
+    text-align: center;
+    border: 1px solid #000000;
+    width: 45px;
+    height: 45px;
+    caret-color: #000000;
+
+}
+
+.button {
+    width: 150px;
+    border-radius: 25px;
+    height: 50px;
+    background-color: purple;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 2px;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+
+td.one {
+    background-color: lightslategrey;
+}
+
+td.currentCell {
+    background-color: #FFFF00;
+}
+
+td.prime {
+    background-color: #00FF00;
+}
+
+td.notPrime {
+    background-color: #EF0107;
+}
+
+
+.half {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#half2 {
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 0px;
+    color: black;
+}
+
+.prime {
+    margin-top: 2px;
+}
+
+#result {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    width: 75%;
+    height: 20vh;
+    overflow-wrap: break-word;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
